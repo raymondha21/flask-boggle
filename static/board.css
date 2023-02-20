@@ -1,0 +1,32 @@
+    .board {
+        border: solid 1px black;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 300%;
+        margin:auto;
+
+    }
+
+    .board td {
+        text-align: center;
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    #boggle {
+        margin: auto;
+    }
+
+    .msg {
+        padding: 1em;
+    }
+
+    .msg.ok {
+        color: white;
+        background-color: green;
+    }
+
+    .msg.err {
+        color: white;
+        background-color: red;
+    }
